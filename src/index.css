@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Cairo:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-pharaoh-gold: #D4AF37;
+  --color-pharaoh-gold-light: #F3E5AB;
+  --color-pharaoh-gold-dark: #AA8C2C;
+  --color-nile-blue: #0A192F;
+  --color-nile-blue-light: #112240;
+  --color-desert-sand: #F4A460;
+  --color-obsidian: #0B0C10;
+
+  --font-sans: "Inter", "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: var(--color-obsidian);
+  color: #ffffff;
+  font-family: var(--font-sans);
+}
+
+.glass-panel {
+  background: rgba(17, 34, 64, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(to right, var(--color-pharaoh-gold-light), var(--color-pharaoh-gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

@@ -1,0 +1,5 @@
+{
+  "name": "AlArab Club 777",
+  "description": "A futuristic tourism platform based in Giza, Egypt, merging Pharaonic history with AI technology.",
+  "requestFramePermissions": ["microphone", "camera"]
+}
